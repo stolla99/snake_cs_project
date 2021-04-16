@@ -1,0 +1,18 @@
+Apricot.png
+Banana.png
+Blackberry.png
+Carrot.png
+Cherry.png
+Grapes.png
+Green apple.png
+Kiwi.png
+Lemon.png
+Lime.png
+Mango.png
+Orange.png
+Peach.png
+Pineapple.png
+Raspberry.png
+Red Apple.png
+Strawberry.png
+Watermelon.png
