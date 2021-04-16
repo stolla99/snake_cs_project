@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="src.mainclasses.LevelEditor">
+  <grid id="27dc6" binding="contentPane" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="681" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <toolbar id="37ac4" binding="toolbar">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <floatable value="false"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <orientation value="0"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="1f4ed" class="javax.swing.JLabel" binding="lbl_level_name">
+            <constraints/>
+            <properties>
+              <text value="&lt;name&gt;"/>
+            </properties>
+          </component>
+          <hspacer id="934e0">
+            <constraints/>
+          </hspacer>
+          <component id="57fbe" class="javax.swing.JButton" binding="btn_menu">
+            <constraints/>
+            <properties>
+              <focusable value="false"/>
+              <text value="Back"/>
+            </properties>
+          </component>
+          <component id="8e140" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Tools:"/>
+            </properties>
+          </component>
+          <component id="5cc71" class="javax.swing.JButton" binding="btn_freehand">
+            <constraints/>
+            <properties>
+              <focusable value="false"/>
+              <text value="Free"/>
+            </properties>
+          </component>
+          <component id="19b41" class="javax.swing.JButton" binding="btn_drag">
+            <constraints/>
+            <properties>
+              <focusable value="false"/>
+              <text value="Drag"/>
+            </properties>
+          </component>
+          <component id="ef75" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Tiles:"/>
+            </properties>
+          </component>
+          <component id="a9b61" class="javax.swing.JButton" binding="btn_empty">
+            <constraints/>
+            <properties>
+              <focusable value="false"/>
+              <text value="Empty"/>
+            </properties>
+          </component>
+          <component id="4c632" class="javax.swing.JButton" binding="btn_wall">
+            <constraints/>
+            <properties>
+              <focusable value="false"/>
+              <text value="Wall"/>
+            </properties>
+          </component>
+          <component id="44412" class="javax.swing.JButton" binding="btn_apple">
+            <constraints/>
+            <properties>
+              <focusable value="false"/>
+              <text value="Apple"/>
+            </properties>
+          </component>
+          <component id="95f6f" class="javax.swing.JButton" binding="btn_snake">
+            <constraints/>
+            <properties>
+              <focusable value="false"/>
+              <text value="Snake"/>
+            </properties>
+          </component>
+          <hspacer id="97204">
+            <constraints/>
+          </hspacer>
+        </children>
+      </toolbar>
+      <grid id="fca3d" binding="jpanel_editor" custom-create="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="6f949" binding="jpanel_level_editor_menu" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="bb637" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <scrollpane id="d079c">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="28200" class="javax.swing.JList" binding="list_levels">
+                    <constraints/>
+                    <properties>
+                      <model/>
+                      <selectionMode value="0"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <component id="d4e6b" class="javax.swing.JButton" binding="btn_create_level">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <text value="new"/>
+                </properties>
+              </component>
+              <component id="9883e" class="javax.swing.JButton" binding="btn_delete_level">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <text value="delete"/>
+                </properties>
+              </component>
+              <component id="2f06e" class="javax.swing.JButton" binding="btn_modify_level">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <text value="modify"/>
+                </properties>
+              </component>
+              <grid id="65f79" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none" title="Field size"/>
+                <children>
+                  <component id="be6c3" class="javax.swing.JComboBox" binding="cmb_field_size">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                </children>
+              </grid>
+              <grid id="80719" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </grid>
+            </children>
+          </grid>
+          <vspacer id="d6382">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <preferred-size width="10" height="10"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <component id="619d8" class="javax.swing.JButton" binding="btn_levelEditor_back">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Back"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
